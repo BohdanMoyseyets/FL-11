@@ -1,0 +1,98 @@
+#root {
+    margin: 0 auto;
+    align-items: center;
+    color: #39b3fe;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 700px;
+}
+
+.fullList {
+    color: black;
+    margin: 0;
+    visibility: hidden;  
+}
+h1 {
+    margin-bottom: 0;
+}
+
+.newElemAdd {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+#newCat {
+    padding: 15px 10px;
+    border-radius: 3px;
+    border: 2px solid #c8d0d8;
+    width: 100%;
+}
+
+#addnew {
+    font-size: 45px;
+    margin: 0;
+}
+
+.disabled {
+    color: #c8d0d8;
+}
+
+.enabled {
+	color: #39b3fe;
+    cursor: pointer;
+}
+
+hr {
+	border: 2px solid #e4f2fe;
+    width: 100%;
+}
+
+ul {
+	width: 100%;
+	padding-left: 0;
+    list-style: none;
+}
+
+ul li {
+	padding: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    cursor: move;
+}
+
+.elem_checkbox {
+    font-size: 30px;
+    color: #c8d0d8;
+}
+
+.input_text {
+    padding: 6.5px 10px;
+    margin-right: 5px;
+    border: 1px solid #c8d0d8;
+    border-radius: 3px;
+}
+
+.label_text {
+    font-size: 20px;
+    color: #39b3fe;
+    margin: 0 10px 0 5px;
+}
+
+.elem_save, .elem_del, .elem_edit, .elem_checkbox {
+    cursor: pointer;
+}
+
+.elem_del {
+    margin-left: auto;
+}
+
+.text_hidden {
+    display: none;
+}
+
+.drag {
+    border: 2px dashed #000;
+}
