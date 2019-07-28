@@ -1,1 +1,127 @@
-/* Your styles go here */
+ ul, li{
+    height: 50px;
+    list-style-type: none;
+    
+}
+ #root, #add {  
+    text-align: center;
+}
+
+
+.style_centering {
+    text-align: center;  
+    margin : 10px auto;
+    width: 400px;
+}
+
+.add_new_list , .input_add{
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 1.3em; 
+}
+#cancel-btn , #save-btn {
+    font-size: 1.3em;
+    border-radius: 10px;
+    padding: 5px 15px; 
+}
+
+.input_add{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.empty_list {
+    font-weight: 400;
+}
+
+#save-btn {
+   margin-right: -33px; 
+    margin-top: 1em; 
+    float: right;
+    
+}
+#cancel-btn {
+    margin-top: 1em; 
+    float: left;
+       
+}
+.input_add {
+    display: block; 
+    margin : 0 auto;  
+}
+.unchecked, .checked{
+    float: left;
+
+}
+
+.li-uncheck {
+    background-color: transparent;
+}
+
+.unchecked {
+    background-color: transparent;
+}
+
+.li-checked {
+    background-color: grey;
+}
+
+.label-class {
+    font-size: 2em;
+}
+
+.deleteimg {
+    float: right;
+}
+
+input[type=checkbox] {
+ display:none; 
+} 
+
+input[type=checkbox] + label:before {
+  display: inline-block;
+}
+
+input[type=checkbox] + label:before { letter-spacing: 8px; } 
+
+input[type=checkbox]:checked + label:before { letter-spacing: 6px; }
+
+#massage_id, #work_mas_al {
+    position: absolute;
+    background-color: red;
+    text-align: left;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    opacity: 0.8;
+}
+
+#close, #closedone {
+    position: absolute;
+    opacity: 0.7;
+    color: white;
+    top: 0.4em;
+    right: 1em;
+    width: 0.1em;
+    height: 0.1em;
+}
+#close:hover , #closedone:hover {
+  opacity: 1;
+}
+#close:before, #close:after, #closedone:before,  #closedone:after {
+  position: absolute;
+  left: 5px;
+  content: ' ';
+  height: 10px;
+  width: 2px;
+  background-color: white;
+}
+#close:before , #closedone:before{
+  transform: rotate(45deg);
+}
+#close:after , #closedone:after{
+  transform: rotate(-45deg);
+}
